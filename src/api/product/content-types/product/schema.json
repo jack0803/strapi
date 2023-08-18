@@ -4,7 +4,7 @@
   "info": {
     "singularName": "product",
     "pluralName": "products",
-    "displayName": "product",
+    "displayName": "student",
     "description": ""
   },
   "options": {
@@ -12,11 +12,18 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "price": {
-      "type": "integer"
-    },
-    "productname": {
+    "studentname": {
       "type": "string"
+    },
+    "studentId": {
+      "type": "uid",
+      "targetField": "studentname"
+    },
+    "class": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::class.class",
+      "inversedBy": "students"
     }
   }
 }

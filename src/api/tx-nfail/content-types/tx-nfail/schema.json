@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "tx_nfails",
+  "info": {
+    "singularName": "tx-nfail",
+    "pluralName": "tx-nfails",
+    "displayName": "TXNfail"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fail": {
+      "type": "string"
+    }
+  }
+}

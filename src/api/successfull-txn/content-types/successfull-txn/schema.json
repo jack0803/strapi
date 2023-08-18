@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "successfull_txns",
+  "info": {
+    "singularName": "successfull-txn",
+    "pluralName": "successfull-txns",
+    "displayName": "successfullTXN"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "success": {
+      "type": "string"
+    }
+  }
+}
